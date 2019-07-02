@@ -1,0 +1,8 @@
+columnBoard\ Configuration=200
+columnComponent=401
+columnComponent\ Repository=200
+columnDescription=876
+componentFilter=2
+defaultProviderID=com.processorexpert.ui.selector.Alphabetical
+eclipse.preferences.version=1
+repositoryFilter=All repositories

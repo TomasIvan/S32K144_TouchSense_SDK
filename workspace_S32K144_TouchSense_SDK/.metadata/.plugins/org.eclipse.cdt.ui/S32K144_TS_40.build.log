@@ -1,0 +1,12 @@
+17:20:48 **** Incremental Build of configuration Debug for project S32K144_TS_40 ****
+make -j4 all 
+Executing target #29 S32K144_TS_40.siz
+Invoking: Standard S32DS Print Size
+arm-none-eabi-size --format=berkeley  S32K144_TS_40.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18288	      0	  21304	  39592	   9aa8	S32K144_TS_40.elf
+Finished building: S32K144_TS_40.siz
+ 
+
+17:20:49 Build Finished (took 1s.696ms)
+
