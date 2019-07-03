@@ -1,18 +1,87 @@
-17:20:31 **** Incremental Build of configuration Debug for project S32K144_TS_40 ****
+12:31:53 **** Build of configuration Debug for project S32K144_TS_40_SDK ****
 make -j4 all 
-Executing target #29 S32K144_TS_40.siz
-Invoking: Standard S32DS Print Size
-arm-none-eabi-size --format=berkeley  S32K144_TS_40.elf 
-   text	   data	    bss	    dec	    hex	filename
-  18288	      0	  21304	  39592	   9aa8	S32K144_TS_40.elf
-Finished building: S32K144_TS_40.siz
+Building file: ../Generated_Code/Cpu.c
+Building file: ../Generated_Code/clockMan1.c
+Executing target #1 ../Generated_Code/Cpu.c
+Building file: ../Generated_Code/pin_mux.c
+Executing target #2 ../Generated_Code/clockMan1.c
+Invoking: Standard S32DS C Compiler
+Executing target #3 ../Generated_Code/pin_mux.c
+arm-none-eabi-gcc "@Generated_Code/Cpu.args" -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Generated_Code/clockMan1.args" -MMD -MP -MF"Generated_Code/clockMan1.d" -MT"Generated_Code/clockMan1.o" -o "Generated_Code/clockMan1.o" "../Generated_Code/clockMan1.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Generated_Code/pin_mux.args" -MMD -MP -MF"Generated_Code/pin_mux.d" -MT"Generated_Code/pin_mux.o" -o "Generated_Code/pin_mux.o" "../Generated_Code/pin_mux.c"
+Building file: ../Project_Settings/Startup_Code/startup_S32K144.S
+Executing target #4 ../Project_Settings/Startup_Code/startup_S32K144.S
+Finished building: ../Generated_Code/Cpu.c
+Invoking: Standard S32DS Assembler
+arm-none-eabi-gcc "@Project_Settings/Startup_Code/startup_S32K144.args" -o "Project_Settings/Startup_Code/startup_S32K144.o" "../Project_Settings/Startup_Code/startup_S32K144.S"
+Finished building: ../Generated_Code/pin_mux.c
  
-17:20:48 **** Incremental Build of configuration Debug for project S32K144_TS_40 ****
-make -j4 all 
-Executing target #29 S32K144_TS_40.siz
+ 
+Finished building: ../Generated_Code/clockMan1.c
+Building file: ../SDK/platform/devices/S32K144/startup/system_S32K144.c
+Building file: ../SDK/platform/devices/startup.c
+ 
+Executing target #5 ../SDK/platform/devices/S32K144/startup/system_S32K144.c
+Executing target #6 ../SDK/platform/devices/startup.c
+Finished building: ../Project_Settings/Startup_Code/startup_S32K144.S
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@SDK/platform/devices/S32K144/startup/system_S32K144.args" -MMD -MP -MF"SDK/platform/devices/S32K144/startup/system_S32K144.d" -MT"SDK/platform/devices/S32K144/startup/system_S32K144.o" -o "SDK/platform/devices/S32K144/startup/system_S32K144.o" "../SDK/platform/devices/S32K144/startup/system_S32K144.c"
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@SDK/platform/devices/startup.args" -MMD -MP -MF"SDK/platform/devices/startup.d" -MT"SDK/platform/devices/startup.o" -o "SDK/platform/devices/startup.o" "../SDK/platform/devices/startup.c"
+ 
+Building file: ../SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c
+Building file: ../SDK/platform/drivers/src/clock/clock_manager.c
+Executing target #7 ../SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c
+Executing target #8 ../SDK/platform/drivers/src/clock/clock_manager.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.args" -MMD -MP -MF"SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.d" -MT"SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.o" -o "SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.o" "../SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c"
+arm-none-eabi-gcc "@SDK/platform/drivers/src/clock/clock_manager.args" -MMD -MP -MF"SDK/platform/drivers/src/clock/clock_manager.d" -MT"SDK/platform/drivers/src/clock/clock_manager.o" -o "SDK/platform/drivers/src/clock/clock_manager.o" "../SDK/platform/drivers/src/clock/clock_manager.c"
+Finished building: ../SDK/platform/devices/S32K144/startup/system_S32K144.c
+ 
+Finished building: ../SDK/platform/devices/startup.c
+Building file: ../SDK/platform/drivers/src/interrupt/interrupt_manager.c
+ 
+Executing target #9 ../SDK/platform/drivers/src/interrupt/interrupt_manager.c
+Building file: ../SDK/platform/drivers/src/pins/pins_driver.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@SDK/platform/drivers/src/interrupt/interrupt_manager.args" -MMD -MP -MF"SDK/platform/drivers/src/interrupt/interrupt_manager.d" -MT"SDK/platform/drivers/src/interrupt/interrupt_manager.o" -o "SDK/platform/drivers/src/interrupt/interrupt_manager.o" "../SDK/platform/drivers/src/interrupt/interrupt_manager.c"
+Executing target #10 ../SDK/platform/drivers/src/pins/pins_driver.c
+Finished building: ../SDK/platform/drivers/src/clock/clock_manager.c
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@SDK/platform/drivers/src/pins/pins_driver.args" -MMD -MP -MF"SDK/platform/drivers/src/pins/pins_driver.d" -MT"SDK/platform/drivers/src/pins/pins_driver.o" -o "SDK/platform/drivers/src/pins/pins_driver.o" "../SDK/platform/drivers/src/pins/pins_driver.c"
+Finished building: ../SDK/platform/drivers/src/clock/S32K1xx/clock_S32K1xx.c
+ 
+ 
+Building file: ../SDK/platform/drivers/src/pins/pins_port_hw_access.c
+Building file: ../Sources/main.c
+Executing target #11 ../SDK/platform/drivers/src/pins/pins_port_hw_access.c
+Executing target #12 ../Sources/main.c
+Finished building: ../SDK/platform/drivers/src/interrupt/interrupt_manager.c
+Invoking: Standard S32DS C Compiler
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@SDK/platform/drivers/src/pins/pins_port_hw_access.args" -MMD -MP -MF"SDK/platform/drivers/src/pins/pins_port_hw_access.d" -MT"SDK/platform/drivers/src/pins/pins_port_hw_access.o" -o "SDK/platform/drivers/src/pins/pins_port_hw_access.o" "../SDK/platform/drivers/src/pins/pins_port_hw_access.c"
+arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -o "Sources/main.o" "../Sources/main.c"
+ 
+Finished building: ../SDK/platform/drivers/src/pins/pins_driver.c
+ 
+Finished building: ../Sources/main.c
+Finished building: ../SDK/platform/drivers/src/pins/pins_port_hw_access.c
+ 
+ 
+Building target: S32K144_TS_40_SDK.elf
+Executing target #13 S32K144_TS_40_SDK.elf
+Invoking: Standard S32DS C Linker
+arm-none-eabi-gcc -o "S32K144_TS_40_SDK.elf" "@S32K144_TS_40_SDK.args"   
+Finished building target: S32K144_TS_40_SDK.elf
+ 
+Executing target #14 S32K144_TS_40_SDK.siz
 Invoking: Standard S32DS Print Size
-arm-none-eabi-size --format=berkeley  S32K144_TS_40.elf 
+arm-none-eabi-size --format=berkeley  S32K144_TS_40_SDK.elf 
    text	   data	    bss	    dec	    hex	filename
-  18288	      0	  21304	  39592	   9aa8	S32K144_TS_40.elf
-Finished building: S32K144_TS_40.siz
+   1536	      4	   3080	   4620	   120c	S32K144_TS_40_SDK.elf
+Finished building: S32K144_TS_40_SDK.siz
  

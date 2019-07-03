@@ -851,8 +851,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x41a ./TS Project/FreeMASTER/freemaster_tsa.o
  .debug_macro   0x00000000       0x43 ./TS Project/FreeMASTER/freemaster_tsa.o
  .debug_macro   0x00000000      0x228 ./TS Project/FreeMASTER/freemaster_tsa.o
- .debug_line    0x00000000      0x4ff ./TS Project/FreeMASTER/freemaster_tsa.o
- .debug_str     0x00000000    0x69e00 ./TS Project/FreeMASTER/freemaster_tsa.o
+ .debug_line    0x00000000      0x441 ./TS Project/FreeMASTER/freemaster_tsa.o
+ .debug_str     0x00000000    0x69dda ./TS Project/FreeMASTER/freemaster_tsa.o
  .comment       0x00000000       0xa1 ./TS Project/FreeMASTER/freemaster_tsa.o
  .debug_frame   0x00000000       0x30 ./TS Project/FreeMASTER/freemaster_tsa.o
  .ARM.attributes
@@ -921,8 +921,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x41a ./TS Project/FreeMASTER/freemaster_sfio.o
  .debug_macro   0x00000000       0x43 ./TS Project/FreeMASTER/freemaster_sfio.o
  .debug_macro   0x00000000      0x228 ./TS Project/FreeMASTER/freemaster_sfio.o
- .debug_line    0x00000000      0x4de ./TS Project/FreeMASTER/freemaster_sfio.o
- .debug_str     0x00000000    0x69d79 ./TS Project/FreeMASTER/freemaster_sfio.o
+ .debug_line    0x00000000      0x420 ./TS Project/FreeMASTER/freemaster_sfio.o
+ .debug_str     0x00000000    0x69d53 ./TS Project/FreeMASTER/freemaster_sfio.o
  .comment       0x00000000       0xa1 ./TS Project/FreeMASTER/freemaster_sfio.o
  .ARM.attributes
                 0x00000000       0x33 ./TS Project/FreeMASTER/freemaster_sfio.o
@@ -1358,8 +1358,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x41a ./TS Project/FreeMASTER/freemaster_lin.o
  .debug_macro   0x00000000       0x43 ./TS Project/FreeMASTER/freemaster_lin.o
  .debug_macro   0x00000000      0x228 ./TS Project/FreeMASTER/freemaster_lin.o
- .debug_line    0x00000000      0x4ee ./TS Project/FreeMASTER/freemaster_lin.o
- .debug_str     0x00000000    0x69dda ./TS Project/FreeMASTER/freemaster_lin.o
+ .debug_line    0x00000000      0x430 ./TS Project/FreeMASTER/freemaster_lin.o
+ .debug_str     0x00000000    0x69db4 ./TS Project/FreeMASTER/freemaster_lin.o
  .comment       0x00000000       0xa1 ./TS Project/FreeMASTER/freemaster_lin.o
  .debug_frame   0x00000000       0x30 ./TS Project/FreeMASTER/freemaster_lin.o
  .ARM.attributes
@@ -1428,8 +1428,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x41a ./TS Project/FreeMASTER/freemaster_can.o
  .debug_macro   0x00000000       0x43 ./TS Project/FreeMASTER/freemaster_can.o
  .debug_macro   0x00000000      0x228 ./TS Project/FreeMASTER/freemaster_can.o
- .debug_line    0x00000000      0x4dd ./TS Project/FreeMASTER/freemaster_can.o
- .debug_str     0x00000000    0x69d78 ./TS Project/FreeMASTER/freemaster_can.o
+ .debug_line    0x00000000      0x41f ./TS Project/FreeMASTER/freemaster_can.o
+ .debug_str     0x00000000    0x69d52 ./TS Project/FreeMASTER/freemaster_can.o
  .comment       0x00000000       0xa1 ./TS Project/FreeMASTER/freemaster_can.o
  .ARM.attributes
                 0x00000000       0x33 ./TS Project/FreeMASTER/freemaster_can.o
@@ -1497,8 +1497,8 @@ Discarded input sections
  .debug_macro   0x00000000      0x41a ./TS Project/FreeMASTER/freemaster_bdm.o
  .debug_macro   0x00000000       0x43 ./TS Project/FreeMASTER/freemaster_bdm.o
  .debug_macro   0x00000000      0x228 ./TS Project/FreeMASTER/freemaster_bdm.o
- .debug_line    0x00000000      0x4dd ./TS Project/FreeMASTER/freemaster_bdm.o
- .debug_str     0x00000000    0x69d78 ./TS Project/FreeMASTER/freemaster_bdm.o
+ .debug_line    0x00000000      0x41f ./TS Project/FreeMASTER/freemaster_bdm.o
+ .debug_str     0x00000000    0x69d52 ./TS Project/FreeMASTER/freemaster_bdm.o
  .comment       0x00000000       0xa1 ./TS Project/FreeMASTER/freemaster_bdm.o
  .ARM.attributes
                 0x00000000       0x33 ./TS Project/FreeMASTER/freemaster_bdm.o
@@ -2781,98 +2781,97 @@ OUTPUT(S32K144_TS_40.elf elf32-littlearm)
  .debug_aranges
                 0x000007b8       0x30 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(ROMCopy.o)
 
-.debug_line     0x00000000     0x8e8f
+.debug_line     0x00000000     0x81cb
  .debug_line    0x00000000       0x67 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m/__arm_start.o
- .debug_line    0x00000067      0xc78 ./TS Project/slider.o
- .debug_line    0x00000cdf      0x253 ./TS Project/power_mode.o
- .debug_line    0x00000f32      0x815 ./TS Project/main.o
- .debug_line    0x00001747      0x40c ./TS Project/filter.o
- .debug_line    0x00001b53      0xf5f ./TS Project/ets.o
- .debug_line    0x00002ab2      0x61a ./TS Project/Peripherals/timer.o
- .debug_line    0x000030cc      0x2ab ./TS Project/Peripherals/scg.o
- .debug_line    0x00003377      0x409 ./TS Project/Peripherals/pcc.o
- .debug_line    0x00003780      0x2a6 ./TS Project/Peripherals/lpuart.o
- .debug_line    0x00003a26      0x405 ./TS Project/Peripherals/gpio.o
- .debug_line    0x00003e2b      0x574 ./TS Project/Peripherals/flextimer.o
- .debug_line    0x0000439f      0x4b0 ./TS Project/Peripherals/adc.o
- .debug_line    0x0000484f      0x886 ./TS Project/FreeMASTER/freemaster_serial.o
- .debug_line    0x000050d5      0x54f ./TS Project/FreeMASTER/freemaster_scope.o
- .debug_line    0x00005624      0x775 ./TS Project/FreeMASTER/freemaster_rec.o
- .debug_line    0x00005d99      0x70b ./TS Project/FreeMASTER/freemaster_protocol.o
- .debug_line    0x000064a4     0x12b0 ./TS Project/FreeMASTER/freemaster_pipes.o
- .debug_line    0x00007754      0x652 ./TS Project/FreeMASTER/freemaster_appcmd.o
- .debug_line    0x00007da6      0x671 ./TS Project/FreeMASTER/S32xx/freemaster_S32xx.o
- .debug_line    0x00008417      0x2d7 ./Project_Settings/Startup_Code/system_S32K144.o
- .debug_line    0x000086ee       0x91 ./Project_Settings/Startup_Code/startup_S32K144.o
- .debug_line    0x0000877f      0x28c ./Project_Settings/Startup_Code/startup.o
- .debug_line    0x00008a0b       0xa4 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(exit.o)
- .debug_line    0x00008aaf       0x94 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(memcpy.o)
- .debug_line    0x00008b43       0x8f C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(memset.o)
- .debug_line    0x00008bd2       0xaf C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(__filll_mem.o)
- .debug_line    0x00008c81       0x7a C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(gcc_ctor_dtor.o)
- .debug_line    0x00008cfb       0xf6 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(__arm_eabi_init.o)
- .debug_line    0x00008df1       0x9e C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(ROMCopy.o)
+ .debug_line    0x00000067      0xbba ./TS Project/slider.o
+ .debug_line    0x00000c21      0x22d ./TS Project/power_mode.o
+ .debug_line    0x00000e4e      0x70b ./TS Project/main.o
+ .debug_line    0x00001559      0x39a ./TS Project/filter.o
+ .debug_line    0x000018f3      0xea1 ./TS Project/ets.o
+ .debug_line    0x00002794      0x536 ./TS Project/Peripherals/timer.o
+ .debug_line    0x00002cca      0x25f ./TS Project/Peripherals/scg.o
+ .debug_line    0x00002f29      0x371 ./TS Project/Peripherals/pcc.o
+ .debug_line    0x0000329a      0x25a ./TS Project/Peripherals/lpuart.o
+ .debug_line    0x000034f4      0x36d ./TS Project/Peripherals/gpio.o
+ .debug_line    0x00003861      0x490 ./TS Project/Peripherals/flextimer.o
+ .debug_line    0x00003cf1      0x418 ./TS Project/Peripherals/adc.o
+ .debug_line    0x00004109      0x7c8 ./TS Project/FreeMASTER/freemaster_serial.o
+ .debug_line    0x000048d1      0x491 ./TS Project/FreeMASTER/freemaster_scope.o
+ .debug_line    0x00004d62      0x6b7 ./TS Project/FreeMASTER/freemaster_rec.o
+ .debug_line    0x00005419      0x64d ./TS Project/FreeMASTER/freemaster_protocol.o
+ .debug_line    0x00005a66     0x11f2 ./TS Project/FreeMASTER/freemaster_pipes.o
+ .debug_line    0x00006c58      0x594 ./TS Project/FreeMASTER/freemaster_appcmd.o
+ .debug_line    0x000071ec      0x5b3 ./TS Project/FreeMASTER/S32xx/freemaster_S32xx.o
+ .debug_line    0x0000779f      0x2b1 ./Project_Settings/Startup_Code/system_S32K144.o
+ .debug_line    0x00007a50       0x91 ./Project_Settings/Startup_Code/startup_S32K144.o
+ .debug_line    0x00007ae1      0x266 ./Project_Settings/Startup_Code/startup.o
+ .debug_line    0x00007d47       0xa4 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(exit.o)
+ .debug_line    0x00007deb       0x94 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(memcpy.o)
+ .debug_line    0x00007e7f       0x8f C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(memset.o)
+ .debug_line    0x00007f0e       0xaf C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(__filll_mem.o)
+ .debug_line    0x00007fbd       0x7a C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_line    0x00008037       0xf6 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(__arm_eabi_init.o)
+ .debug_line    0x0000812d       0x9e C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(ROMCopy.o)
 
-.debug_str      0x00000000    0x73605
+.debug_str      0x00000000    0x7364c
  .debug_str     0x00000000      0x1bd C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m/__arm_start.o
                                 0x246 (size before relaxing)
- .debug_str     0x000001bd    0x662e9 ./TS Project/slider.o
-                              0x664be (size before relaxing)
- .debug_str     0x000664a6      0x1fb ./TS Project/power_mode.o
-                              0x63da8 (size before relaxing)
- .debug_str     0x000666a1     0x1ef6 ./TS Project/main.o
-                              0x6783f (size before relaxing)
- .debug_str     0x00068597      0x1c0 ./TS Project/filter.o
-                              0x65a65 (size before relaxing)
- .debug_str     0x00068757      0x2f4 ./TS Project/ets.o
-                              0x66167 (size before relaxing)
- .debug_str     0x00068a4b      0x1ad ./TS Project/Peripherals/timer.o
-                              0x671b7 (size before relaxing)
- .debug_str     0x00068bf8       0x28 ./TS Project/Peripherals/scg.o
-                              0x63d3e (size before relaxing)
- .debug_str     0x00068c20       0x2e ./TS Project/Peripherals/pcc.o
-                              0x6579f (size before relaxing)
- .debug_str     0x00068c4e       0x59 ./TS Project/Peripherals/lpuart.o
-                              0x63cc9 (size before relaxing)
- .debug_str     0x00068ca7       0x21 ./TS Project/Peripherals/gpio.o
-                              0x655d8 (size before relaxing)
- .debug_str     0x00068cc8       0x3f ./TS Project/Peripherals/flextimer.o
-                              0x66f11 (size before relaxing)
- .debug_str     0x00068d07       0x4a ./TS Project/Peripherals/adc.o
-                              0x65982 (size before relaxing)
- .debug_str     0x00068d51     0x3586 ./TS Project/FreeMASTER/freemaster_serial.o
-                              0x6a013 (size before relaxing)
- .debug_str     0x0006c2d7       0xdd ./TS Project/FreeMASTER/freemaster_scope.o
-                              0x69e55 (size before relaxing)
- .debug_str     0x0006c3b4      0x48b ./TS Project/FreeMASTER/freemaster_rec.o
-                              0x6a281 (size before relaxing)
- .debug_str     0x0006c83f      0x19e ./TS Project/FreeMASTER/freemaster_protocol.o
-                              0x6a07f (size before relaxing)
- .debug_str     0x0006c9dd      0x6d7 ./TS Project/FreeMASTER/freemaster_pipes.o
-                              0x6a540 (size before relaxing)
- .debug_str     0x0006d0b4      0x22e ./TS Project/FreeMASTER/freemaster_appcmd.o
-                              0x6a068 (size before relaxing)
- .debug_str     0x0006d2e2       0xaa ./TS Project/FreeMASTER/S32xx/freemaster_S32xx.o
-                              0x695ed (size before relaxing)
- .debug_str     0x0006d38c     0x5a15 ./Project_Settings/Startup_Code/system_S32K144.o
-                              0x694d0 (size before relaxing)
- .debug_str     0x00072da1       0x3f ./Project_Settings/Startup_Code/startup_S32K144.o
-                                 0xac (size before relaxing)
- .debug_str     0x00072de0      0x37e ./Project_Settings/Startup_Code/startup.o
-                              0x69660 (size before relaxing)
- .debug_str     0x0007315e      0x185 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(exit.o)
+ .debug_str     0x000001bd    0x662c3 ./TS Project/slider.o
+                              0x66498 (size before relaxing)
+ .debug_str     0x00066480      0x1fb ./TS Project/power_mode.o
+                              0x63d82 (size before relaxing)
+ .debug_str     0x0006667b     0x1ef6 ./TS Project/main.o
+                              0x67819 (size before relaxing)
+ .debug_str     0x00068571      0x1c0 ./TS Project/filter.o
+                              0x65a3f (size before relaxing)
+ .debug_str     0x00068731      0x2f4 ./TS Project/ets.o
+                              0x66141 (size before relaxing)
+ .debug_str     0x00068a25      0x1ad ./TS Project/Peripherals/timer.o
+                              0x67191 (size before relaxing)
+ .debug_str     0x00068bd2       0x28 ./TS Project/Peripherals/scg.o
+                              0x63d18 (size before relaxing)
+ .debug_str     0x00068bfa       0x2e ./TS Project/Peripherals/pcc.o
+                              0x65779 (size before relaxing)
+ .debug_str     0x00068c28       0x59 ./TS Project/Peripherals/lpuart.o
+                              0x63ca3 (size before relaxing)
+ .debug_str     0x00068c81       0x21 ./TS Project/Peripherals/gpio.o
+                              0x655b2 (size before relaxing)
+ .debug_str     0x00068ca2       0x3f ./TS Project/Peripherals/flextimer.o
+                              0x66eeb (size before relaxing)
+ .debug_str     0x00068ce1       0x4a ./TS Project/Peripherals/adc.o
+                              0x6595c (size before relaxing)
+ .debug_str     0x00068d2b     0x3586 ./TS Project/FreeMASTER/freemaster_serial.o
+                              0x69fed (size before relaxing)
+ .debug_str     0x0006c2b1       0xdd ./TS Project/FreeMASTER/freemaster_scope.o
+                              0x69e2f (size before relaxing)
+ .debug_str     0x0006c38e      0x48b ./TS Project/FreeMASTER/freemaster_rec.o
+                              0x6a25b (size before relaxing)
+ .debug_str     0x0006c819      0x19e ./TS Project/FreeMASTER/freemaster_protocol.o
+                              0x6a059 (size before relaxing)
+ .debug_str     0x0006c9b7      0x6d7 ./TS Project/FreeMASTER/freemaster_pipes.o
+                              0x6a51a (size before relaxing)
+ .debug_str     0x0006d08e      0x22e ./TS Project/FreeMASTER/freemaster_appcmd.o
+                              0x6a042 (size before relaxing)
+ .debug_str     0x0006d2bc       0xaa ./TS Project/FreeMASTER/S32xx/freemaster_S32xx.o
+                              0x695c7 (size before relaxing)
+ .debug_str     0x0006d366     0x5a15 ./Project_Settings/Startup_Code/system_S32K144.o
+                              0x694aa (size before relaxing)
+ .debug_str     0x00072d7b       0xac ./Project_Settings/Startup_Code/startup_S32K144.o
+ .debug_str     0x00072e27      0x37e ./Project_Settings/Startup_Code/startup.o
+                              0x6963a (size before relaxing)
+ .debug_str     0x000731a5      0x185 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(exit.o)
                                 0x229 (size before relaxing)
- .debug_str     0x000732e3       0x22 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(memcpy.o)
+ .debug_str     0x0007332a       0x22 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(memcpy.o)
                                 0x1ff (size before relaxing)
- .debug_str     0x00073305       0x15 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(memset.o)
+ .debug_str     0x0007334c       0x15 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(memset.o)
                                 0x201 (size before relaxing)
- .debug_str     0x0007331a       0x2d C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(__filll_mem.o)
+ .debug_str     0x00073361       0x2d C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(__filll_mem.o)
                                 0x213 (size before relaxing)
- .debug_str     0x00073347      0x126 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_str     0x0007338e      0x126 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(gcc_ctor_dtor.o)
                                 0x277 (size before relaxing)
- .debug_str     0x0007346d      0x103 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(__arm_eabi_init.o)
+ .debug_str     0x000734b4      0x103 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(__arm_eabi_init.o)
                                 0x28b (size before relaxing)
- .debug_str     0x00073570       0x95 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(ROMCopy.o)
+ .debug_str     0x000735b7       0x95 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(ROMCopy.o)
                                 0x209 (size before relaxing)
 
 .comment        0x00000000      0x141
