@@ -26,7 +26,7 @@
 "./Project_Settings/Startup_Code/startup_S32K144.o"
 "./Project_Settings/Startup_Code/startup.o"
 -T
-"C:/Users/nxf47069/OneDrive - NXP/S32K144_TouchSense_SDK/workspace_S32K144_TouchSense_SDK/S32K144_TS_40/Project_Settings/Linker_Files/S32K144_64_flash.ld"
+"C:/Users/nxf47069/workspace_S32K144_TouchSense_SDK/S32K144_TS_40/Project_Settings/Linker_Files/S32K144_64_flash.ld"
 -Wl,-Map,"S32K144_TS_40.map"
 -Xlinker
 --gc-sections

@@ -54,7 +54,7 @@ S32K144_TS_40.siz \
 all: warning-messages explicit-dependencies S32K144_TS_40.elf secondary-outputs
 
 # Tool invocations
-S32K144_TS_40.elf: $(OBJS) C:/Users/nxf47069/OneDrive\ -\ NXP/S32K144_TouchSense_SDK/workspace_S32K144_TouchSense_SDK/S32K144_TS_40/Project_Settings/Linker_Files/S32K144_64_flash.ld $(USER_OBJS)
+S32K144_TS_40.elf: $(OBJS) C:/Users/nxf47069/workspace_S32K144_TouchSense_SDK/S32K144_TS_40/Project_Settings/Linker_Files/S32K144_64_flash.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Executing target #28 $@'
 	@echo 'Invoking: Standard S32DS C Linker'

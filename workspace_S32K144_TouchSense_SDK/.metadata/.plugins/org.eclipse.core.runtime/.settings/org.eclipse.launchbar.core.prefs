@@ -1,6 +1,8 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:S32K144_TS_40_Release,org.eclipse.launchbar.core.descriptorType.default\:S32K144_TS_40_Debug_RAM,org.eclipse.launchbar.core.descriptorType.default\:S32K144_TS_40_Debug
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:S32K144_TS40_SDK_Debug,org.eclipse.launchbar.core.descriptorType.default\:S32K144_TS40_SDK_Debug_RAM,org.eclipse.launchbar.core.descriptorType.default\:S32K144_TS40_SDK_Release
 eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:S32K144_TS40_SDK_Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:S32K144_TS40_SDK_Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:S32K144_TS_40_Debug/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:S32K144_TS_40_Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

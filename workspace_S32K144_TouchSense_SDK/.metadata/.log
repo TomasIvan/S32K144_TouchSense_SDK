@@ -477,172 +477,219 @@ java.lang.IllegalArgumentException: Attempted to beginRule: R/, does not match o
 	at com.processorexpert.core.client.ProjectPEclient.synchronizePEProject(ProjectPEclient.java:854)
 	at com.processorexpert.core.client.ProjectPEclient$4.run(ProjectPEclient.java:2344)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SESSION 2019-07-03 13:47:01.089 -----------------------------------------------
-eclipse.buildId=4.6.3.M20170301-0400
-java.version=1.8.0_51
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
-Framework arguments:  -product com.nxp.s32ds.arm.ide.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.nxp.s32ds.arm.ide.product
 
-!ENTRY org.eclipse.core.resources 2 10035 2019-07-03 13:47:20.517
-!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 12:52:02.493
+!MESSAGE Indexed 'S32K144_TS_40_SDK' (34 sources, 90 headers) in 3.44 sec: 6,213 declarations; 17,957 references; 0 unresolved inclusions; 0 syntax errors; 134 unresolved names (0.55%)
 
-!ENTRY org.eclipse.egit.ui 2 0 2019-07-03 13:47:28.537
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'H:\'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 13:00:30.099
+!MESSAGE Indexed 'S32K144_TS_40_SDK' (34 sources, 90 headers) in 3.17 sec: 6,213 declarations; 17,957 references; 0 unresolved inclusions; 0 syntax errors; 134 unresolved names (0.55%)
 
-!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-07-03 13:47:33.575
-!MESSAGE Unable to read repository at http://www.pemicro.com/eclipse/updates/compositeContent.xml.
-!STACK 0
-java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
-	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
-	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
-	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
-	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
-	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:197)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
-	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
-	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 13:02:15.085
+!MESSAGE Indexed 'S32K144_TS_40_SDK' (34 sources, 90 headers) in 3.03 sec: 6,213 declarations; 17,957 references; 0 unresolved inclusions; 0 syntax errors; 134 unresolved names (0.55%)
 
-!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-07-03 13:47:35.125
-!MESSAGE Unable to read repository at http://www.nxp.com/lgfiles/updates/Eclipse/S32DS_ARM_2018.R1/updatesite/content.xml.
-!STACK 0
-java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(Unknown Source)
-	at java.net.SocketInputStream.read(Unknown Source)
-	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
-	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
-	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
-	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
-	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
-	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:197)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
-	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
-	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 13:05:59.414
+!MESSAGE Indexed 'S32K144_TS_40_SDK' (34 sources, 90 headers) in 4.35 sec: 6,213 declarations; 17,957 references; 0 unresolved inclusions; 0 syntax errors; 134 unresolved names (0.55%)
 
-!ENTRY org.eclipse.equinox.registry 4 1 2019-07-03 16:38:24.727
-!MESSAGE Plug-in "org.eclipse.egit.ui" was unable to instantiate class "org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator".
-!STACK 0
-org.eclipse.swt.SWTException: Device is disposed
-	at org.eclipse.swt.SWT.error(SWT.java:4533)
-	at org.eclipse.swt.SWT.error(SWT.java:4448)
-	at org.eclipse.swt.SWT.error(SWT.java:4419)
-	at org.eclipse.swt.widgets.Display.error(Display.java:1262)
-	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4818)
-	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.ensureFontAndColorsCreated(GitLightweightDecorator.java:149)
-	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.<init>(GitLightweightDecorator.java:128)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at java.lang.Class.newInstance(Unknown Source)
-	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
-	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
-	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
-	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
-	at org.eclipse.ui.internal.WorkbenchPlugin.createExtension(WorkbenchPlugin.java:282)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition$1.run(LightweightDecoratorDefinition.java:125)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.internalGetDecorator(LightweightDecoratorDefinition.java:120)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:242)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:100)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:383)
-	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:365)
-	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:367)
-	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:327)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-!SESSION 2019-07-03 17:31:59.138 -----------------------------------------------
-eclipse.buildId=4.6.3.M20170301-0400
-java.version=1.8.0_51
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
-Framework arguments:  -product com.nxp.s32ds.arm.ide.product
-Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.nxp.s32ds.arm.ide.product
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 13:11:15.850
+!MESSAGE Indexed 'S32K144_TS_40_SDK' (34 sources, 90 headers) in 3.21 sec: 6,213 declarations; 17,957 references; 0 unresolved inclusions; 0 syntax errors; 134 unresolved names (0.55%)
 
-!ENTRY org.eclipse.core.resources 4 567 2019-07-03 17:32:02.266
-!MESSAGE Workspace restored, but some problems occurred.
-!SUBENTRY 1 org.eclipse.core.resources 4 567 2019-07-03 17:32:02.266
-!MESSAGE Could not read metadata for 'S32K144_TS_40_SDK'.
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 13:16:13.519
+!MESSAGE Indexed 'S32K144_TS_40_SDK' (34 sources, 90 headers) in 2.82 sec: 6,213 declarations; 17,957 references; 0 unresolved inclusions; 0 syntax errors; 134 unresolved names (0.55%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 13:16:23.387
+!MESSAGE Indexed 'S32K144_TS_40_SDK' (34 sources, 90 headers) in 3.4 sec: 6,213 declarations; 17,957 references; 0 unresolved inclusions; 0 syntax errors; 134 unresolved names (0.55%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 13:17:21.605
+!MESSAGE Indexed 'S32K144_TS_40_SDK' (34 sources, 90 headers) in 3.6 sec: 6,213 declarations; 17,957 references; 0 unresolved inclusions; 0 syntax errors; 134 unresolved names (0.55%)
+
+!ENTRY org.eclipse.core.resources 4 77 2019-07-03 15:06:34.139
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2019-07-03 15:06:34.139
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2019-07-03 15:06:34.139
+!MESSAGE C:\Users\nxf47069\workspace_S32K144_TouchSense_SDK\S32K144_TS_40 overlaps the location of another project: 'S32K144_TS_40'
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 16:38:41.058
+!MESSAGE No toolchain found for toolchainId: ghs.managedmake.arm.executable.toolchain
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 16:38:41.059
+!MESSAGE No toolchain found for toolchainId: iar.arm.toolchain.v6.1.0
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 16:38:47.465
+!MESSAGE No toolchain found for toolchainId: ghs.managedmake.arm.executable.toolchain
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 16:38:47.473
+!MESSAGE No toolchain found for toolchainId: iar.arm.toolchain.v6.1.0
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 16:38:47.480
+!MESSAGE No toolchain found for toolchainId: iar.arm.toolchain.v8.0.0
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 16:40:06.013
+!MESSAGE No toolchain found for toolchainId: ghs.managedmake.arm.executable.toolchain
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 16:40:06.014
+!MESSAGE No toolchain found for toolchainId: iar.arm.toolchain.v6.1.0
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 16:40:11.434
+!MESSAGE No toolchain found for toolchainId: ghs.managedmake.arm.executable.toolchain
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 16:40:11.441
+!MESSAGE No toolchain found for toolchainId: iar.arm.toolchain.v6.1.0
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 16:40:11.448
+!MESSAGE No toolchain found for toolchainId: iar.arm.toolchain.v8.0.0
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 16:40:40.720
+!MESSAGE AddConfig: Added config Name=Debug_RAM
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-07-03 16:40:42.437
+!MESSAGE Wrong type of resource description: path=Project_Settings/Linker_Files, type=0x8:SETTING_FILE, name=[Project_Settings/Linker_Files], id=[com.freescale.s32ds.cross.gnu.arm.cortexm.exe.debug.386162012.Project_Settings/Linker_Files]
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 16:40:43.250
+!MESSAGE The Project Updater GCC updater processed the project Debug @ fff (ATTACH), SDK FreeMaster_S32xx.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 16:40:43.937
+!MESSAGE The Project Updater GCC updater processed the project Release @ fff (ATTACH), SDK FreeMaster_S32xx.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 16:40:44.426
+!MESSAGE The Project Updater GCC updater processed the project Debug_RAM @ fff (ATTACH), SDK FreeMaster_S32xx.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 16:40:45.518
+!MESSAGE The Project Updater GCC updater processed the project Debug @ fff (ATTACH), SDK S32K14x_AMMCLIB_gcc.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 16:40:45.981
+!MESSAGE The Project Updater GCC updater processed the project Release @ fff (ATTACH), SDK S32K14x_AMMCLIB_gcc.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 16:40:46.484
+!MESSAGE The Project Updater GCC updater processed the project Debug_RAM @ fff (ATTACH), SDK S32K14x_AMMCLIB_gcc.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 16:40:46.485
+!MESSAGE Hook com.freescale.s32ds.cross.sdk.SDKCheckFPProjectSettingRequiredHook is called.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 16:40:47.798
+!MESSAGE The Project Updater GCC updater processed the project Debug @ fff (ATTACH), SDK S32K144_SDK_gcc.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 16:40:48.349
+!MESSAGE The Project Updater GCC updater processed the project Release @ fff (ATTACH), SDK S32K144_SDK_gcc.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 16:40:49.081
+!MESSAGE The Project Updater GCC updater processed the project Debug_RAM @ fff (ATTACH), SDK S32K144_SDK_gcc.
+
+!ENTRY com.freescale.processorexpert.core 4 0 2019-07-03 16:41:09.028
+!MESSAGE org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: MultiRule[P/fff,com.processorexpert.core.utils.MutexRule@17bca22]
 !STACK 1
-org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'S32K144_TS_40_SDK' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
-	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:907)
-	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:904)
-	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:884)
-	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:735)
-	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1587)
-	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2399)
-	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2156)
-	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:464)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:774)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:767)
-	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:724)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:932)
-	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:309)
-	at org.eclipse.osgi.container.Module.doStart(Module.java:581)
-	at org.eclipse.osgi.container.Module.start(Module.java:449)
-	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
-	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
-	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
-	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
-	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:419)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
-	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
-	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
-!SUBENTRY 2 org.eclipse.core.resources 4 567 2019-07-03 17:32:02.268
-!MESSAGE The project description file (.project) for 'S32K144_TS_40_SDK' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: MultiRule[P/fff,com.processorexpert.core.utils.MutexRule@17bca22]
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:26)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:205)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:149)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:853)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:814)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:808)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1388)
+	at com.processorexpert.core.compiler.BuildSettingsReader.setCdtStringVariable(BuildSettingsReader.java:188)
+	at com.processorexpert.core.kpsdk.preferences.PEProjectExtenderSDK.setSdkSourceFilesDirectory(PEProjectExtenderSDK.java:1311)
+	at com.processorexpert.core.kpsdk.preferences.PEProjectExtenderSDK.setProjectOptionFromScript(PEProjectExtenderSDK.java:366)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.getsetPropertyFeature(TMacroProcessor.java:16235)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.macroCmd(TMacroProcessor.java:8395)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.convertSrcLine(TMacroProcessor.java:15074)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.convertSrc(TMacroProcessor.java:14693)
+	at com.processorexpert.core.project.TProject.create_PE_Project(TProject.java:3927)
+	at com.processorexpert.core.project.TProject.loadProjectFromStorage(TProject.java:4041)
+	at com.processorexpert.core.project.TProjectWithPEAPI.unSafe_LoadProject(TProjectWithPEAPI.java:462)
+	at com.processorexpert.core.project.TProjectWithPEAPI.command(TProjectWithPEAPI.java:796)
+	at com.processorexpert.core.client.ProjectPEclient.synchronizePEProject(ProjectPEclient.java:854)
+	at com.processorexpert.core.client.ProjectPEclient$4.run(ProjectPEclient.java:2344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalArgumentException: Attempted to beginRule: R/, does not match outer scope rule: MultiRule[P/fff,com.processorexpert.core.utils.MutexRule@17bca22]
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:134)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:333)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:85)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:307)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:121)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2188)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2235)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:638)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:203)
+	... 19 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2019-07-03 16:41:09.029
+!MESSAGE Attempted to beginRule: R/, does not match outer scope rule: MultiRule[P/fff,com.processorexpert.core.utils.MutexRule@17bca22]
+!STACK 0
+java.lang.IllegalArgumentException: Attempted to beginRule: R/, does not match outer scope rule: MultiRule[P/fff,com.processorexpert.core.utils.MutexRule@17bca22]
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:134)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:333)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:85)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:307)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:121)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2188)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2235)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:638)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:203)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:149)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:853)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:814)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:808)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1388)
+	at com.processorexpert.core.compiler.BuildSettingsReader.setCdtStringVariable(BuildSettingsReader.java:188)
+	at com.processorexpert.core.kpsdk.preferences.PEProjectExtenderSDK.setSdkSourceFilesDirectory(PEProjectExtenderSDK.java:1311)
+	at com.processorexpert.core.kpsdk.preferences.PEProjectExtenderSDK.setProjectOptionFromScript(PEProjectExtenderSDK.java:366)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.getsetPropertyFeature(TMacroProcessor.java:16235)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.macroCmd(TMacroProcessor.java:8395)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.convertSrcLine(TMacroProcessor.java:15074)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.convertSrc(TMacroProcessor.java:14693)
+	at com.processorexpert.core.project.TProject.create_PE_Project(TProject.java:3927)
+	at com.processorexpert.core.project.TProject.loadProjectFromStorage(TProject.java:4041)
+	at com.processorexpert.core.project.TProjectWithPEAPI.unSafe_LoadProject(TProjectWithPEAPI.java:462)
+	at com.processorexpert.core.project.TProjectWithPEAPI.command(TProjectWithPEAPI.java:796)
+	at com.processorexpert.core.client.ProjectPEclient.synchronizePEProject(ProjectPEclient.java:854)
+	at com.processorexpert.core.client.ProjectPEclient$4.run(ProjectPEclient.java:2344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY org.eclipse.egit.ui 2 0 2019-07-03 17:32:14.492
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'H:\'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 16:41:13.272
+!MESSAGE Indexed 'fff' (13 sources, 6 headers) in 0.939 sec: 483 declarations; 1,260 references; 2 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
 
-!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-07-03 17:32:20.827
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-07-03 16:48:51.323
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://www.pemicro.com/eclipse/updates/compositeContent.xml.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:243)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.getLocalFile(CompositeMetadataRepositoryFactory.java:73)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:98)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:197)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	... 1 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2019-07-03 16:48:51.324
 !MESSAGE Unable to read repository at http://www.pemicro.com/eclipse/updates/compositeContent.xml.
 !STACK 0
 java.net.SocketException: Connection reset
@@ -667,7 +714,45 @@ java.net.SocketException: Connection reset
 	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2019-07-03 17:32:21.602
+!ENTRY org.eclipse.equinox.p2.core 4 0 2019-07-03 16:48:51.836
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://www.nxp.com/lgfiles/updates/Eclipse/S32DS_ARM_2018.R1/updatesite/content.xml.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:243)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:66)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:88)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:160)
+	at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:84)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:273)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:283)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:251)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:197)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:685)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	... 1 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2019-07-03 16:48:51.838
 !MESSAGE Unable to read repository at http://www.nxp.com/lgfiles/updates/Eclipse/S32DS_ARM_2018.R1/updatesite/content.xml.
 !STACK 0
 java.net.SocketException: Connection reset
@@ -692,10 +777,159 @@ java.net.SocketException: Connection reset
 	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
-!ENTRY org.eclipse.core.jobs 4 2 2019-07-03 17:32:25.898
-!MESSAGE An internal error occurred during: "SDK Project Upgrade".
-!STACK 0
-java.lang.IllegalStateException: Workspace is closed.
-	at org.eclipse.core.resources.ResourcesPlugin.getWorkspace(ResourcesPlugin.java:412)
-	at com.processorexpert.sdk.legacy.LegacyProjectUpdater$1.run(LegacyProjectUpdater.java:133)
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 16:57:31.288
+!MESSAGE Indexed 'fff' (23 sources, 59 headers) in 3.58 sec: 6,416 declarations; 13,806 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 17:01:01.919
+!MESSAGE No toolchain found for toolchainId: ghs.managedmake.arm.executable.toolchain
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 17:01:01.926
+!MESSAGE No toolchain found for toolchainId: iar.arm.toolchain.v6.1.0
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 17:01:10.048
+!MESSAGE No toolchain found for toolchainId: ghs.managedmake.arm.executable.toolchain
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 17:01:10.056
+!MESSAGE No toolchain found for toolchainId: iar.arm.toolchain.v6.1.0
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 17:01:10.063
+!MESSAGE No toolchain found for toolchainId: iar.arm.toolchain.v8.0.0
+
+!ENTRY com.freescale.s32ds.cross.wizard 2 0 2019-07-03 17:01:59.704
+!MESSAGE AddConfig: Added config Name=Debug_RAM
+
+!ENTRY org.eclipse.cdt.core 4 0 2019-07-03 17:02:01.343
+!MESSAGE Wrong type of resource description: path=Project_Settings/Linker_Files, type=0x8:SETTING_FILE, name=[Project_Settings/Linker_Files], id=[com.freescale.s32ds.cross.gnu.arm.cortexm.exe.debug.394160982.Project_Settings/Linker_Files]
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 17:02:02.153
+!MESSAGE The Project Updater GCC updater processed the project Debug @ S32K144_TS40_SDK (ATTACH), SDK FreeMaster_S32xx.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 17:02:02.865
+!MESSAGE The Project Updater GCC updater processed the project Release @ S32K144_TS40_SDK (ATTACH), SDK FreeMaster_S32xx.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 17:02:03.371
+!MESSAGE The Project Updater GCC updater processed the project Debug_RAM @ S32K144_TS40_SDK (ATTACH), SDK FreeMaster_S32xx.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 17:02:04.506
+!MESSAGE The Project Updater GCC updater processed the project Debug @ S32K144_TS40_SDK (ATTACH), SDK S32K144_SDK_gcc.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 17:02:05.045
+!MESSAGE The Project Updater GCC updater processed the project Release @ S32K144_TS40_SDK (ATTACH), SDK S32K144_SDK_gcc.
+
+!ENTRY com.freescale.s32ds.cross.sdk.support 1 0 2019-07-03 17:02:05.643
+!MESSAGE The Project Updater GCC updater processed the project Debug_RAM @ S32K144_TS40_SDK (ATTACH), SDK S32K144_SDK_gcc.
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 17:02:11.811
+!MESSAGE Indexed 'S32K144_TS40_SDK' (13 sources, 6 headers) in 0.81 sec: 483 declarations; 1,260 references; 2 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.freescale.processorexpert.core 4 0 2019-07-03 17:02:13.567
+!MESSAGE org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: MultiRule[P/S32K144_TS40_SDK,com.processorexpert.core.utils.MutexRule@73f8b]
+!STACK 1
+org.eclipse.core.runtime.CoreException: Attempted to beginRule: R/, does not match outer scope rule: MultiRule[P/S32K144_TS40_SDK,com.processorexpert.core.utils.MutexRule@73f8b]
+	at org.eclipse.cdt.internal.core.settings.model.ExceptionFactory.createCoreException(ExceptionFactory.java:26)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:205)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:149)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:853)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:814)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:808)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1388)
+	at com.processorexpert.core.compiler.BuildSettingsReader.setCdtStringVariable(BuildSettingsReader.java:188)
+	at com.processorexpert.core.kpsdk.preferences.PEProjectExtenderSDK.setSdkSourceFilesDirectory(PEProjectExtenderSDK.java:1311)
+	at com.processorexpert.core.kpsdk.preferences.PEProjectExtenderSDK.setProjectOptionFromScript(PEProjectExtenderSDK.java:366)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.getsetPropertyFeature(TMacroProcessor.java:16235)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.macroCmd(TMacroProcessor.java:8395)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.convertSrcLine(TMacroProcessor.java:15074)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.convertSrc(TMacroProcessor.java:14693)
+	at com.processorexpert.core.project.TProject.create_PE_Project(TProject.java:3927)
+	at com.processorexpert.core.project.TProject.loadProjectFromStorage(TProject.java:4041)
+	at com.processorexpert.core.project.TProjectWithPEAPI.unSafe_LoadProject(TProjectWithPEAPI.java:462)
+	at com.processorexpert.core.project.TProjectWithPEAPI.command(TProjectWithPEAPI.java:796)
+	at com.processorexpert.core.client.ProjectPEclient.synchronizePEProject(ProjectPEclient.java:854)
+	at com.processorexpert.core.client.ProjectPEclient$4.run(ProjectPEclient.java:2344)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.lang.IllegalArgumentException: Attempted to beginRule: R/, does not match outer scope rule: MultiRule[P/S32K144_TS40_SDK,com.processorexpert.core.utils.MutexRule@73f8b]
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:134)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:333)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:85)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:307)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:121)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2188)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2235)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:638)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:203)
+	... 19 more
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2019-07-03 17:02:13.567
+!MESSAGE Attempted to beginRule: R/, does not match outer scope rule: MultiRule[P/S32K144_TS40_SDK,com.processorexpert.core.utils.MutexRule@73f8b]
+!STACK 0
+java.lang.IllegalArgumentException: Attempted to beginRule: R/, does not match outer scope rule: MultiRule[P/S32K144_TS40_SDK,com.processorexpert.core.utils.MutexRule@73f8b]
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.jobs.ThreadJob.illegalPush(ThreadJob.java:134)
+	at org.eclipse.core.internal.jobs.ThreadJob.push(ThreadJob.java:333)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:85)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:307)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:121)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2188)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2235)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:638)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:203)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:149)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:853)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:814)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:808)
+	at org.eclipse.cdt.core.model.CoreModel.setProjectDescription(CoreModel.java:1388)
+	at com.processorexpert.core.compiler.BuildSettingsReader.setCdtStringVariable(BuildSettingsReader.java:188)
+	at com.processorexpert.core.kpsdk.preferences.PEProjectExtenderSDK.setSdkSourceFilesDirectory(PEProjectExtenderSDK.java:1311)
+	at com.processorexpert.core.kpsdk.preferences.PEProjectExtenderSDK.setProjectOptionFromScript(PEProjectExtenderSDK.java:366)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.getsetPropertyFeature(TMacroProcessor.java:16235)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.macroCmd(TMacroProcessor.java:8395)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.convertSrcLine(TMacroProcessor.java:15074)
+	at com.processorexpert.core.macrolanguage.TMacroProcessor.convertSrc(TMacroProcessor.java:14693)
+	at com.processorexpert.core.project.TProject.create_PE_Project(TProject.java:3927)
+	at com.processorexpert.core.project.TProject.loadProjectFromStorage(TProject.java:4041)
+	at com.processorexpert.core.project.TProjectWithPEAPI.unSafe_LoadProject(TProjectWithPEAPI.java:462)
+	at com.processorexpert.core.project.TProjectWithPEAPI.command(TProjectWithPEAPI.java:796)
+	at com.processorexpert.core.client.ProjectPEclient.synchronizePEProject(ProjectPEclient.java:854)
+	at com.processorexpert.core.client.ProjectPEclient$4.run(ProjectPEclient.java:2344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 18:49:35.850
+!MESSAGE Indexed 'S32K144_TS40_SDK' (34 sources, 88 headers) in 5.03 sec: 7,123 declarations; 19,087 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 18:51:51.431
+!MESSAGE Indexed 'S32K144_TS40_SDK' (34 sources, 88 headers) in 3.79 sec: 7,123 declarations; 19,087 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 18:52:02.639
+!MESSAGE Indexed 'S32K144_TS40_SDK' (34 sources, 88 headers) in 3.53 sec: 7,123 declarations; 19,087 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 18:52:50.309
+!MESSAGE Indexed 'S32K144_TS40_SDK' (34 sources, 88 headers) in 3.56 sec: 7,123 declarations; 19,087 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 18:53:13.556
+!MESSAGE Indexed 'S32K144_TS40_SDK' (34 sources, 88 headers) in 5.4 sec: 7,123 declarations; 19,087 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-07-03 18:55:53.368
+!MESSAGE Indexed 'S32K144_TS40_SDK' (34 sources, 88 headers) in 4.08 sec: 7,123 declarations; 19,087 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-07-03 19:09:47.744
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2019-07-03 19:09:47.747
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.core.resources 4 372 2019-07-03 19:09:47.755
+!MESSAGE Resource '/S32K144_TS_40' is not open.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2019-07-03 19:10:34.877
+!MESSAGE Request for monitor: '39^error,msg="No symbol "_mqx_kernel_data" in current context."' resulted in an error.
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2019-07-03 19:10:34.877
+!MESSAGE Failed to execute MI command:
+-data-evaluate-expression _mqx_kernel_data
+Error message from debugger back end:
+No symbol "_mqx_kernel_data" in current context.
+!STACK 0
+java.lang.Exception: No symbol "_mqx_kernel_data" in current context.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:941)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:770)

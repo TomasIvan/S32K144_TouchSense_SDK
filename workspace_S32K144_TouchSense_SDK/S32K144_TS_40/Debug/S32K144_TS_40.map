@@ -2813,7 +2813,7 @@ OUTPUT(S32K144_TS_40.elf elf32-littlearm)
  .debug_line    0x00008037       0xf6 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(__arm_eabi_init.o)
  .debug_line    0x0000812d       0x9e C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(ROMCopy.o)
 
-.debug_str      0x00000000    0x7364c
+.debug_str      0x00000000    0x735df
  .debug_str     0x00000000      0x1bd C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m/__arm_start.o
                                 0x246 (size before relaxing)
  .debug_str     0x000001bd    0x662c3 ./TS Project/slider.o
@@ -2856,22 +2856,23 @@ OUTPUT(S32K144_TS_40.elf elf32-littlearm)
                               0x695c7 (size before relaxing)
  .debug_str     0x0006d366     0x5a15 ./Project_Settings/Startup_Code/system_S32K144.o
                               0x694aa (size before relaxing)
- .debug_str     0x00072d7b       0xac ./Project_Settings/Startup_Code/startup_S32K144.o
- .debug_str     0x00072e27      0x37e ./Project_Settings/Startup_Code/startup.o
+ .debug_str     0x00072d7b       0x3f ./Project_Settings/Startup_Code/startup_S32K144.o
+                                 0x86 (size before relaxing)
+ .debug_str     0x00072dba      0x37e ./Project_Settings/Startup_Code/startup.o
                               0x6963a (size before relaxing)
- .debug_str     0x000731a5      0x185 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(exit.o)
+ .debug_str     0x00073138      0x185 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(exit.o)
                                 0x229 (size before relaxing)
- .debug_str     0x0007332a       0x22 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(memcpy.o)
+ .debug_str     0x000732bd       0x22 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(memcpy.o)
                                 0x1ff (size before relaxing)
- .debug_str     0x0007334c       0x15 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(memset.o)
+ .debug_str     0x000732df       0x15 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(memset.o)
                                 0x201 (size before relaxing)
- .debug_str     0x00073361       0x2d C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(__filll_mem.o)
+ .debug_str     0x000732f4       0x2d C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\libc99.a(__filll_mem.o)
                                 0x213 (size before relaxing)
- .debug_str     0x0007338e      0x126 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_str     0x00073321      0x126 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(gcc_ctor_dtor.o)
                                 0x277 (size before relaxing)
- .debug_str     0x000734b4      0x103 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(__arm_eabi_init.o)
+ .debug_str     0x00073447      0x103 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(__arm_eabi_init.o)
                                 0x28b (size before relaxing)
- .debug_str     0x000735b7       0x95 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(ROMCopy.o)
+ .debug_str     0x0007354a       0x95 C:/NXP/S32DS_ARM_v2018.R1/S32DS/arm32_ewl2/lib/thumb/v7e-m\librt.a(ROMCopy.o)
                                 0x209 (size before relaxing)
 
 .comment        0x00000000      0x141
