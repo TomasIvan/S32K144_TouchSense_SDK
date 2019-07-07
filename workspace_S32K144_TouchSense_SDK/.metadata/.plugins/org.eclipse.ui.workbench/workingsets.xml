@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
-<workingSet factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562149680546_2" label="Other Projects" name="Other Projects">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/S32K144_TS_40_SDK" type="4"/>
-</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562149680546_2" label="Other Projects" name="Other Projects"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1561641029990_0" label="Window Working Set" name="Aggregate for window 1561641029989"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562065463663_1" label="Window Working Set" name="Aggregate for window 1562065463663"/>
 </workingSetManager>
