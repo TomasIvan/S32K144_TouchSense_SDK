@@ -1,130 +1,42 @@
-17:43:48 **** Build of configuration Debug for project S32K144_TS40_SDK ****
+23:57:22 **** Incremental Build of configuration Debug for project S32K144_TS40_SDK ****
 make -j4 all 
-Building file: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_appcmd.c
-Building file: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_bdm.c
-Executing target #1 C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_appcmd.c
-Executing target #2 C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_bdm.c
-Building file: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_can.c
-Invoking: Standard S32DS C Compiler
-Executing target #3 C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_can.c
-arm-none-eabi-gcc "@FreeMaster_S32xx/src_common/freemaster_appcmd.args" -MMD -MP -MF"FreeMaster_S32xx/src_common/freemaster_appcmd.d" -MT"FreeMaster_S32xx/src_common/freemaster_appcmd.o" -o "FreeMaster_S32xx/src_common/freemaster_appcmd.o" "C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_appcmd.c"
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@FreeMaster_S32xx/src_common/freemaster_bdm.args" -MMD -MP -MF"FreeMaster_S32xx/src_common/freemaster_bdm.d" -MT"FreeMaster_S32xx/src_common/freemaster_bdm.o" -o "FreeMaster_S32xx/src_common/freemaster_bdm.o" "C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_bdm.c"
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@FreeMaster_S32xx/src_common/freemaster_can.args" -MMD -MP -MF"FreeMaster_S32xx/src_common/freemaster_can.d" -MT"FreeMaster_S32xx/src_common/freemaster_can.o" -o "FreeMaster_S32xx/src_common/freemaster_can.o" "C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_can.c"
-Building file: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_lin.c
-Executing target #4 C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_lin.c
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@FreeMaster_S32xx/src_common/freemaster_lin.args" -MMD -MP -MF"FreeMaster_S32xx/src_common/freemaster_lin.d" -MT"FreeMaster_S32xx/src_common/freemaster_lin.o" -o "FreeMaster_S32xx/src_common/freemaster_lin.o" "C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_lin.c"
-Finished building: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_can.c
-Finished building: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_appcmd.c
-Finished building: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_bdm.c
- 
-Finished building: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_lin.c
- 
- 
- 
-Building file: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_pipes.c
-Building file: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_protocol.c
-Building file: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_rec.c
-Executing target #6 C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_protocol.c
-Executing target #7 C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_rec.c
-Executing target #5 C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_pipes.c
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@FreeMaster_S32xx/src_common/freemaster_protocol.args" -MMD -MP -MF"FreeMaster_S32xx/src_common/freemaster_protocol.d" -MT"FreeMaster_S32xx/src_common/freemaster_protocol.o" -o "FreeMaster_S32xx/src_common/freemaster_protocol.o" "C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_protocol.c"
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@FreeMaster_S32xx/src_common/freemaster_rec.args" -MMD -MP -MF"FreeMaster_S32xx/src_common/freemaster_rec.d" -MT"FreeMaster_S32xx/src_common/freemaster_rec.o" -o "FreeMaster_S32xx/src_common/freemaster_rec.o" "C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_rec.c"
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@FreeMaster_S32xx/src_common/freemaster_pipes.args" -MMD -MP -MF"FreeMaster_S32xx/src_common/freemaster_pipes.d" -MT"FreeMaster_S32xx/src_common/freemaster_pipes.o" -o "FreeMaster_S32xx/src_common/freemaster_pipes.o" "C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_pipes.c"
-Building file: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_scope.c
-Executing target #8 C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_scope.c
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@FreeMaster_S32xx/src_common/freemaster_scope.args" -MMD -MP -MF"FreeMaster_S32xx/src_common/freemaster_scope.d" -MT"FreeMaster_S32xx/src_common/freemaster_scope.o" -o "FreeMaster_S32xx/src_common/freemaster_scope.o" "C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_scope.c"
-Finished building: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_protocol.c
-Finished building: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_rec.c
- 
- 
-Building file: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_serial.c
-Building file: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_sfio.c
-Executing target #9 C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_serial.c
-Finished building: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_scope.c
-C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_pipes.c: In function 'FMSTR_PipeFrame':
-C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_pipes.c:1332:16: warning: 'rp' may be used uninitialized in this function [-Wmaybe-uninitialized]
-     pbuff->nRP = rp;
-                ^
-C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_pipes.c:1309:28: note: 'rp' was declared here
-     FMSTR_PIPE_SIZE total, rp;
-                            ^
-Executing target #10 C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_sfio.c
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@FreeMaster_S32xx/src_common/freemaster_serial.args" -MMD -MP -MF"FreeMaster_S32xx/src_common/freemaster_serial.d" -MT"FreeMaster_S32xx/src_common/freemaster_serial.o" -o "FreeMaster_S32xx/src_common/freemaster_serial.o" "C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_serial.c"
- 
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@FreeMaster_S32xx/src_common/freemaster_sfio.args" -MMD -MP -MF"FreeMaster_S32xx/src_common/freemaster_sfio.d" -MT"FreeMaster_S32xx/src_common/freemaster_sfio.o" -o "FreeMaster_S32xx/src_common/freemaster_sfio.o" "C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_sfio.c"
-Building file: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_tsa.c
-Executing target #11 C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_tsa.c
-Finished building: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_pipes.c
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@FreeMaster_S32xx/src_common/freemaster_tsa.args" -MMD -MP -MF"FreeMaster_S32xx/src_common/freemaster_tsa.d" -MT"FreeMaster_S32xx/src_common/freemaster_tsa.o" -o "FreeMaster_S32xx/src_common/freemaster_tsa.o" "C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_tsa.c"
- 
-Building file: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_platforms/S32xx/freemaster_S32xx.c
-Executing target #12 C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_platforms/S32xx/freemaster_S32xx.c
-Finished building: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_serial.c
-Finished building: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_sfio.c
-Invoking: Standard S32DS C Compiler
- 
-arm-none-eabi-gcc "@FreeMaster_S32xx/src_platforms/S32xx/freemaster_S32xx.args" -MMD -MP -MF"FreeMaster_S32xx/src_platforms/S32xx/freemaster_S32xx.d" -MT"FreeMaster_S32xx/src_platforms/S32xx/freemaster_S32xx.o" -o "FreeMaster_S32xx/src_platforms/S32xx/freemaster_S32xx.o" "C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_platforms/S32xx/freemaster_S32xx.c"
- 
-Building file: ../Sources/Peripherals/flextimer.c
-Building file: ../Sources/Peripherals/timer.c
-Executing target #34 ../Sources/Peripherals/flextimer.c
-Finished building: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_common/freemaster_tsa.c
-Executing target #39 ../Sources/Peripherals/timer.c
- 
-Invoking: Standard S32DS C Compiler
-Invoking: Standard S32DS C Compiler
-arm-none-eabi-gcc "@Sources/Peripherals/flextimer.args" -MMD -MP -MF"Sources/Peripherals/flextimer.d" -MT"Sources/Peripherals/flextimer.o" -o "Sources/Peripherals/flextimer.o" "../Sources/Peripherals/flextimer.c"
+Building file: ../Sources/ets.c
+Executing target #45 ../Sources/ets.c
 Building file: ../Sources/main.c
-arm-none-eabi-gcc "@Sources/Peripherals/timer.args" -MMD -MP -MF"Sources/Peripherals/timer.d" -MT"Sources/Peripherals/timer.o" -o "Sources/Peripherals/timer.o" "../Sources/Peripherals/timer.c"
-Executing target #42 ../Sources/main.c
 Invoking: Standard S32DS C Compiler
+Executing target #47 ../Sources/main.c
+arm-none-eabi-gcc "@Sources/ets.args" -MMD -MP -MF"Sources/ets.d" -MT"Sources/ets.o" -o "Sources/ets.o" "../Sources/ets.c"
+Building file: ../Sources/slider.c
+Invoking: Standard S32DS C Compiler
+Executing target #49 ../Sources/slider.c
+../Sources/ets.c: In function 'ElectrodeSelfTrimSense':
+../Sources/ets.c:744:3: warning: implicit declaration of function 'LPTMR_DRV_SetCompareValueByCount' [-Wimplicit-function-declaration]
+   LPTMR_DRV_SetCompareValueByCount(INST_LPTMR1,LPTMR_ELEC_SENSE);
+   ^
+../Sources/ets.c:744:36: error: 'INST_LPTMR1' undeclared (first use in this function)
+   LPTMR_DRV_SetCompareValueByCount(INST_LPTMR1,LPTMR_ELEC_SENSE);
+                                    ^
+../Sources/ets.c:744:36: note: each undeclared identifier is reported only once for each function it appears in
 arm-none-eabi-gcc "@Sources/main.args" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -o "Sources/main.o" "../Sources/main.c"
-Finished building: C:/NXP/S32DS_ARM_v2018.R1/S32DS/FreeMASTER_Serial_Communication_Driver_V2_0/src_platforms/S32xx/freemaster_S32xx.c
- 
-Finished building: ../Sources/Peripherals/flextimer.c
-Finished building: ../Sources/Peripherals/timer.c
- 
- 
-Finished building: ../Sources/main.c
- 
-Building target: S32K144_TS40_SDK.elf
-Executing target #45 S32K144_TS40_SDK.elf
-Invoking: Standard S32DS C Linker
-arm-none-eabi-gcc -o "S32K144_TS40_SDK.elf" "@S32K144_TS40_SDK.args"   
-Finished building target: S32K144_TS40_SDK.elf
- 
-Executing target #46 S32K144_TS40_SDK.siz
-Invoking: Standard S32DS Print Size
-arm-none-eabi-size --format=berkeley  S32K144_TS40_SDK.elf 
-   text	   data	    bss	    dec	    hex	filename
-  27640	   2472	  21408	  51520	   c940	S32K144_TS40_SDK.elf
-Finished building: S32K144_TS40_SDK.siz
- 
-17:44:13 **** Incremental Build of configuration Debug for project S32K144_TS40_SDK ****
-make -j4 all 
-Executing target #46 S32K144_TS40_SDK.siz
-Invoking: Standard S32DS Print Size
-arm-none-eabi-size --format=berkeley  S32K144_TS40_SDK.elf 
-   text	   data	    bss	    dec	    hex	filename
-  27640	   2472	  21408	  51520	   c940	S32K144_TS40_SDK.elf
-Finished building: S32K144_TS40_SDK.siz
- 
-17:46:52 **** Incremental Build of configuration Debug for project S32K144_TS40_SDK ****
-make -j4 all 
-Executing target #46 S32K144_TS40_SDK.siz
-Invoking: Standard S32DS Print Size
-arm-none-eabi-size --format=berkeley  S32K144_TS40_SDK.elf 
-   text	   data	    bss	    dec	    hex	filename
-  27640	   2472	  21408	  51520	   c940	S32K144_TS40_SDK.elf
-Finished building: S32K144_TS40_SDK.siz
- 
+make: *** [Sources/subdir.mk:63: Sources/ets.o] Error 1
+make: *** Waiting for unfinished jobs....
+Invoking: Standard S32DS C Compiler
+arm-none-eabi-gcc "@Sources/slider.args" -MMD -MP -MF"Sources/slider.d" -MT"Sources/slider.o" -o "Sources/slider.o" "../Sources/slider.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:469:48: error: 'LPTMR_ELEC_CAL' undeclared (first use in this function)
+  LPTMR_DRV_SetCompareValueByCount(INST_LPTMR1, LPTMR_ELEC_CAL);
+                                                ^
+../Sources/main.c:469:48: note: each undeclared identifier is reported only once for each function it appears in
+../Sources/main.c:570:3: error: expected declaration or statement at end of input
+   return exit_code;
+   ^
+make: *** [Sources/subdir.mk:79: Sources/main.o] Error 1
+../Sources/slider.c: In function 'SliderElectrodeSelfTrimSense':
+../Sources/slider.c:437:3: warning: implicit declaration of function 'LPTMR_DRV_SetCompareValueByCount' [-Wimplicit-function-declaration]
+   LPTMR_DRV_SetCompareValueByCount(INST_LPTMR1, LPTMR_ELEC_SENSE);
+   ^
+../Sources/slider.c:437:36: error: 'INST_LPTMR1' undeclared (first use in this function)
+   LPTMR_DRV_SetCompareValueByCount(INST_LPTMR1, LPTMR_ELEC_SENSE);
+                                    ^
+../Sources/slider.c:437:36: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Sources/subdir.mk:95: Sources/slider.o] Error 1

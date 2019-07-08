@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="clock_notify_struct_t" key="selection"/>
+		<item value="LPIT" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="lpit"/>
+			<item value="LPTMR "/>
+			<item value=" Set LPTMR 30"/>
+			<item value="timeout"/>
 			<item value="clock_notify_struct_t"/>
 			<item value="init"/>
 			<item value="clockMode"/>
 			<item value="FMSTR_SCI_BASE"/>
-			<item value="FMSTR_USE_LPUART"/>
-			<item value="FMSTR_USE_SCI"/>
-			<item value="lowPowerModeEnable"/>
-			<item value="LOW_POWER_MODE"/>
 		</list>
 		<list key="replacehistory">
 		</list>
